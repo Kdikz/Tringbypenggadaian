@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.phone {
+  width: 430px;
+  min-height: 100vh;
+  background: #f5f5f5;
+  border-radius: 38px;
+  padding: 22px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+}
+
+.top-space {
+  height: 22px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 210px;
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.4;
+}
+
+.card {
+  margin-top: 26px;
+  background: #ececec;
+  border-radius: 28px;
+  padding: 22px 18px;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 22px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 12px 0;
+}
+
+.row span {
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 48%;
+}
+
+.row strong {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  width: 52%;
+  line-height: 1.4;
+}
+
+.minus {
+  color: #c56d57 !important;
+}
+
+@media (max-width: 480px) {
+  .phone {
+    width: 100%;
+    border-radius: 0;
+    min-height: 100vh;
+  }
+}
